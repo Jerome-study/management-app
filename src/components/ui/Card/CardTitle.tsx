@@ -6,7 +6,10 @@ interface CardTitleProps extends React.HTMLAttributes<HTMLDivElement> {
 
 const CardTitle = ({ children, className, ...props }: CardTitleProps) => {
   return (
-    <div className={cn("font-semibold text-base", className)} {...props}>
+    <div
+      className={cn("font-semibold text-base text-text", className)}
+      {...props}
+    >
       {children}
     </div>
   );

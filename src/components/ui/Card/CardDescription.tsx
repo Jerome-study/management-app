@@ -10,7 +10,10 @@ const CardDescription = ({
   ...props
 }: CardDescriptionProps) => {
   return (
-    <div className={cn("font-normal text-xs opacity-40", className)} {...props}>
+    <div
+      className={cn("font-normal text-xs text-text opacity-40", className)}
+      {...props}
+    >
       {children}
     </div>
   );
