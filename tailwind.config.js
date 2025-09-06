@@ -34,7 +34,7 @@ export default {
           /* 🌞 General Light Mode Tokens */
           "--color-primary": "#6366F1" /* Indigo 500 */,
           "--color-text": "#1F2937" /* Gray 800 */,
-          "--color-surface": "#FFFFFF" /* White */,
+          "--color-surface": "#F3F4F6" /* Gray 100  */,
           "--color-background": "#F9FAFB" /* Gray 50 */,
           "--color-border": "#E5E7EB" /* Gray 200 */,
           "--color-danger": "#EF4444" /* Red 500 */,
@@ -54,7 +54,7 @@ export default {
           /* 🌙 General Dark Mode Tokens */
           "--color-primary": "#818CF8" /* Indigo 400 */,
           "--color-text": "#F3F4F6" /* Gray 100 */,
-          "--color-surface": "#1F2937" /* Gray 800 */,
+          "--color-surface": "#1F2937" /* Gray 800  */,
           "--color-background": "#111827" /* Gray 900 */,
           "--color-border": "#374151" /* Gray 700 */,
           "--color-danger": "#F87171" /* Red 400 */,
