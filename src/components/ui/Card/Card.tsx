@@ -1,6 +1,6 @@
 import { cn } from "@utils/cn";
 
-interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
+interface CardProps extends React.ComponentProps<"div"> {
   children?: React.ReactNode;
 }
 

@@ -2,7 +2,7 @@ import { cva } from "class-variance-authority";
 import React from "react";
 import { cn } from "../../../utils/cn";
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+interface ButtonProps extends React.ComponentProps<"button"> {
   children: React.ReactNode;
   color?: "primary" | "success" | "danger" | "warning";
   size?: "small" | "medium" | "large";
