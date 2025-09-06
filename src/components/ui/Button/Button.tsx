@@ -28,7 +28,7 @@ const Button = ({
 export default Button;
 
 const buttonVariants = cva(
-  "flex items-center justify-center rounded-md py-2 px-3",
+  "flex items-center justify-center rounded-md py-2 px-3 ",
   {
     variants: {
       color: {
