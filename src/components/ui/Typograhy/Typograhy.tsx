@@ -16,7 +16,7 @@ type TypograhyFontWeight = 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900;
 interface TypograhyProps extends React.HTMLAttributes<HTMLElement> {
   variant?: TypographyVariant;
   component?: keyof React.JSX.IntrinsicElements;
-  color?: "default" | "primary" | "success" | "danger" | "warning";
+  color?: "default" | "primary" | "success" | "danger" | "warning" | "info";
   fontWeight?: TypograhyFontWeight;
 }
 
@@ -28,6 +28,7 @@ const typograhyVariant = cva("w-auto h-auto", {
       success: "text-success",
       danger: "text-danger",
       warning: "text-warning",
+      info: "text-info",
     },
     variant: {
       h1: "text-4xl font-bold tracking-tight",

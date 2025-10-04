@@ -16,7 +16,7 @@ const Input = ({ inputSize, className, ...props }: InputProps) => {
 };
 
 const InputVariantProps = cva(
-  "border border-border rounded-xs focus:outline-primary",
+  "border border-border rounded-sm focus:outline-primary",
   {
     variants: {
       inputSize: {
