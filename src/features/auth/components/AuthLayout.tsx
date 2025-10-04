@@ -13,7 +13,7 @@ const AuthLayout = ({ children, type }: AuthLayoutProps) => {
       <div className="grid grid-cols-1 mx-auto w-full  max-w-[1440px] bg-white border border-border min-h-dvh md:h-[900px] md:min-h-0  md:rounded-xl md:grid-cols-12">
         <div className="col-span-7 hidden md:block">
           <img
-            src={"https://picsum.photos/id/20/1920"}
+            src={"https://picsum.photos/id/96/1920"}
             className="w-full h-full object-cover rounded-l-xl"
           />
         </div>
@@ -25,7 +25,11 @@ const AuthLayout = ({ children, type }: AuthLayoutProps) => {
           {/* Form */}
           {children}
           <div className="flex gap-2 justify-center">
-            <Typograhy className="text-xs">Already have an account?</Typograhy>
+            <Typograhy className="text-xs">
+              {type === "Login"
+                ? `Don't have an account`
+                : "Already have an account?"}
+            </Typograhy>
             <Link
               to={
                 type === "Login" ? ROUTES.public.REGISTER : ROUTES.public.LOGIN
