@@ -24,9 +24,7 @@ const Register = () => {
         <FieldSet>
           <Input placeholder="Confirm password" type="password" />
         </FieldSet>
-        <Typograhy color="primary" className="text-xs text-end">
-          Forgot password?
-        </Typograhy>
+
         <Button type="submit" fontWeight={600}>
           Sign up
         </Button>
