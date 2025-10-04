@@ -1,4 +1,3 @@
-import Typograhy from "@components/ui/Typograhy/Typograhy";
 import AuthLayout from "../components/AuthLayout";
 import Form from "@components/ui/Form/Form";
 import FieldSet from "@components/ui/FieldSet/FieldSet";
